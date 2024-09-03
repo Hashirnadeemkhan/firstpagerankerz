@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 <link rel="stylesheet" href="css/animate.css">
@@ -10,6 +27,7 @@
 <!-- Font Google -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FirstPageRankerz</title>
 </head>
 
 <body>
@@ -21,8 +39,19 @@
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Home</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-scroll-nav="3" >
+              Services
+          </a>
+          <div class="dropdown-menu">
+            
+              <a style="color: rgb(77, 75, 75);" class="dropdown-item" href="#">Digital Marketing</a>
+              <a style="color: rgb(79, 77, 77);" class="dropdown-item" href="#">Web Design & Development</a>
+              <a style="color: rgb(78, 74, 74);" class="dropdown-item" href="#">Graphic Design</a></div>
+          
+      </li>
+    
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Features</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Team</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Testimonials</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Faq</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Contact</a> </li>
@@ -30,7 +59,7 @@
     </div>
   </div>
 </nav>
-<title>FirstPageRankerz</title>
+
 <!-- End Navbar --> 
 <!-------Banner Start------->
 <section class="banner" data-scroll-index='0'>
@@ -55,7 +84,7 @@
   </div>
   <span class="svg-wave"> <img class="svg-hero" src="images/applight-wave.svg"> </span> </section>
 
-<!-------Banner End-------> 
+
 
 <!-------About End------->
 
@@ -187,34 +216,43 @@
 </section>
 <!-------Features End-------> 
 
-<!-------Team Start------->
-<section class="team section-padding" data-scroll-index='3'>
+<!-------Service Start------->
+<section class="service section-padding" data-scroll-index='3'>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="sectioner-header text-center">
-          <h3>Our Team</h3>
+          <h3>Services</h3>
           <span class="line"></span>
-          <p>This team at First Page Rankerz brings years of experience with a passion to drive your digital success.</p>
+          <p>At First Page Rankerz, we offer a range of services to help businesses succeed online. Our team of experts specializes in digital marketing, web design and development, and graphic design. We work closely with our clients to understand their needs and goals, and create custom solutions that deliver results.</p>
         </div>
-        <div class="section-content text-center">
+        <div class="section-content">
           <div class="row">
-            <div class="col-md-4">
-              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/user1.jpg" class="img-fluid"/>
-                <h4>Janette Lynch</h4>
-                <p>Marketing Specialist</p>
+            <div class="col-md-4 col-sm-12">
+              <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-icon">
+                  <i class="fa fa-mobile" aria-hidden="true"></i>
+                </div>
+                <h4 id="digital-marketing">Digital Marketing</h4>
+                <p>Our digital marketing services include search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, and email marketing. We help businesses increase their online visibility, drive traffic to their websites, and generate leads and sales.</p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/user2.jpg" class="img-fluid"/>
-                <h4>Marcell Ziemann</h4>
-                <p>CEO & Founder</p>
+            <div class="col-md-4 col-sm-12">
+              <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
+                <div class="service-icon">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+                </div>
+                <h4 id="web-design-development">Web Design & Development</h4>
+                <p>Our web design and development services include creating custom websites, e-commerce solutions, and web applications. We use the latest technologies and design trends to create websites that are visually appealing, user-friendly, and optimized for search engines.</p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="images/user3.jpg" class="img-fluid"/>
-                <h4>Robert Palmer</h4>
-                <p>Web Developer</p>
+            <div class="col-md-4 col-sm-12">
+              <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-icon">
+                  <i class="fa fa-palette" aria-hidden="true"></i>
+                </div>
+                <h4 id="graphic-design">Graphic Design</h4>
+                <p>Our graphic design services include creating custom logos, brochures, business cards, and other marketing materials. We use the latest design software and techniques to create visually appealing designs that reflect our clients' brand identity.</p>
               </div>
             </div>
           </div>
@@ -223,6 +261,7 @@
     </div>
   </div>
 </section>
+<!-------Service End------->
 
 <!-------Team End-------> 
 
@@ -350,7 +389,7 @@
                 <div class="contact-item media"> <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
                   <div class="media-body">
                     <p class="text-uppercase">Our Address</p>
-                    <p class="text-uppercase">30 N Gould St STE 28894 Sheridan WY, Wyoming, United States 82801/p>
+                    <p class="text-uppercase">30 N Gould St STE 28894 Sheridan WY, Wyoming, United States 82801</p>
                   </div>
                 </div>
                 <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
@@ -398,8 +437,20 @@
           <ul>
             <li><a href="#"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
             <li><a href="#"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li> <br> <br> <br>
-            <svg width="40px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" class=" popout wow fadeInUp" data-wow-delay="0.9s">!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.<path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/><p class="ariel">Add partner | Recognized by Google</p></svg>
-
+            <div class="icon-container">
+              <svg class="popout" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                  <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                  <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                  <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                  <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                  <path d="M1 1h22v22H1z" fill="none"/>
+              </svg>
+              <img  class="popout" src="images/icons8-facebook-48.png" alt="">
+              <img  class="popout" src="images/icons8-google-shopping-48.png" alt="">
+              <img  class="popout" src="images/icons8-outlook-48.png" alt="">
+          </div>
+          
+            <p class="ariel">Add partner | Recognized by Google</p>
           </ul>
         </div>
       </div>
@@ -407,8 +458,6 @@
   </div>
 
 </section>
-
-
 
 
 <!-------Download End------->
@@ -422,6 +471,9 @@
     </div>
   </div>
 </footer>
+
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
@@ -498,6 +550,29 @@ $(window).on("load",function (){
 
 
 
+</script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDg4-uufwwSQmI7FGTvMxSwmF9Kq_Sun5Y",
+    authDomain: "firstpagerankerz.firebaseapp.com",
+    projectId: "firstpagerankerz",
+    storageBucket: "firstpagerankerz.appspot.com",
+    messagingSenderId: "152836308529",
+    appId: "1:152836308529:web:c3c6046ad53bb370ec1f10",
+    measurementId: "G-XCF96KRRBE"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
 </script>
 </body>
 </html>
